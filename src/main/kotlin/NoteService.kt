@@ -25,6 +25,11 @@ object NotesService {
         note.id = ++noteIdNext
         return notes.last().id
     }
+    fun printAllNotes() {
+        for (notee in notes) {
+            println(notes)
+        }
+    }
 
     fun createComment(noteId: Int, noteComment: NoteComments): Int {
         for (index in notes) {
@@ -136,8 +141,10 @@ object NotesService {
     }
 }
 
-        fun main() {
-            val notesComment = mutableListOf(NoteComments(5,"комментарий"))
-val note1 = Notes (2, "Заметка", "Заметка заметканная")
+fun main() {
+    val notesComment = mutableListOf(NoteComments(5, "комментарий"))
+    val note1 = Notes(2, "Заметка", "Заметка заметканная", notesComment)
+    NotesService.add(note1)
+    NotesService.printAllNotes()
 
-        }
+}
