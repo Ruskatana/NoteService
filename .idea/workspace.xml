@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e572f2dd-ed49-4d33-b625-f88aa73ea6be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/NotesServiceTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NoteService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NoteService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/NotesServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/NotesServiceTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NotesServiceTest.add">
+  <component name="RunManager" selected="Gradle.NotesServiceTest.createCommentUnsuccessful">
     <configuration name="NotesServiceTest.add" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -84,6 +82,52 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="NotesServiceTest.createCommentSuccessful" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;NotesServiceTest.createCommentSuccessful&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NotesServiceTest.createCommentUnsuccessful" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;NotesServiceTest.createCommentUnsuccessful&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="NoteServiceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NoteServiceKt" />
       <module name="NoteService.main" />
@@ -93,8 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.NotesServiceTest.add" />
+        <item itemvalue="Gradle.NotesServiceTest.createCommentUnsuccessful" />
+        <item itemvalue="Gradle.NotesServiceTest.createCommentSuccessful" />
         <item itemvalue="Kotlin.NoteServiceKt" />
+        <item itemvalue="Gradle.NotesServiceTest.add" />
       </list>
     </recent_temporary>
   </component>
